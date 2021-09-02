@@ -9,6 +9,7 @@ tests/**/coverage/
 tests/e2e/reports
 selenium-debug.log
 media/excel/*
+!media/excel/README.md
 # Editor directories and files
 .idea
 .vscode
