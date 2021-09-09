@@ -19,6 +19,7 @@ class UserDataFileExcel(models.Model):
     filepath = models.FileField(upload_to='excel/')
     uploader = models.CharField(max_length=200)
     upload_date = models.DateTimeField('date uploaded', auto_now_add=True, null=True)
+    tag = models.CharField(max_length=400)
 
 class FileExcelHeader(models.Model):
     filename = models.CharField(max_length=400)

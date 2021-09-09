@@ -10,6 +10,7 @@ tests/e2e/reports
 selenium-debug.log
 media/excel/*
 !media/excel/README.md
+frontend/dist/*
 # Editor directories and files
 .idea
 .vscode
@@ -21,3 +22,6 @@ media/excel/*
 
 package-lock.json
 yarn.lock
+teserver/settings.py
+*/migrations/*
+*/__pycache__/*
