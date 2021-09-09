@@ -25,3 +25,6 @@ yarn.lock
 teserver/settings.py
 */migrations/*
 */__pycache__/*
+staticfiles/*
+uwsgi.ini
+log/uwsgi.pid
